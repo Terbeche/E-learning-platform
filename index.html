@@ -6,15 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learn the best way</title>
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/mobile.css">
   <link rel="stylesheet" href="./css/desktop.css">
 </head>
 
 <body>
   <header class="header">
-    <nav class="navbar">
-    <a href="about.html"> <img src="./images/icons/mobile-menu.svg" alt=""></a>
+    <ul id="desktop-bar" class="hide-me-on-mobile">
+      <li><a href="#">logo</a></li>
+      <li><a href="#">logo</a></li>
+      <li><a href="#">English</a></li>
+      <li><a href="#">My page</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+    <nav class="nav-bar">
+      <ul id="desktop-navbar" class="hide-me-on-mobile">
+        <li id="logo"><a href="#">logo</a> </li>
+        <li><a href="#">About</a> </li>
+        <li><a href="#">Program</a> </li>
+        <li><a href="#">Join</a> </li>
+        <li><a href="#">Sponsor</a> </li>
+        <li><a href="#">News</a> </li>
+        <li><a href="#">logo</a> </li>
+      </ul>
+      <a href="about.html"> <img class="hide-me-on-desktop" src="./images/icons/mobile-menu.svg" alt=""></a>
     </nav>
 
     <p id="before-headline">Hello wanna learn with us ?</p>
@@ -55,61 +71,92 @@
           <h3 class="course-title">Kotlin</h3>
           <p class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
         </div>
-        <div class="course">
-          <img class="course-illustraion" src="./images/icons/icons8-nodejs.svg" alt="">
-          <h3 class="course-title">NodeJs</h3>
-          <p class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-        </div>
       </div>
 
       <div class="join-button">
-        <button id="join-button" type="button" name="button">Join us today</button>
+        <button class="hide-me-on-desktop" id="join-button" type="button" name="button">Join us today</button>
+      </div>
+
+      <div id="all-courses" class="hide-me-on-mobile">
+        <p>See all courses</p>
       </div>
     </section>
 
     <section id="teachers">
       <h2 id="teachers-title">Our teachers</h2>
       <hr id="main-hr">
-      <div class="teacher">
-        <img class="teacher-image" src="./images/man1.jpg" alt="">
-        <div class="teacher-information">
-          <h3 class="teacher-name">John</h3>
-          <p class="teacher-job">Software enginer at mirorverse</p>
-          <p class="teacher-description">John is a senior web developper since
-            10 years he have been working with many companies in the past such as google and facebook</p>
+      <!-- <div class="container"> -->
+
+      <div class="the-teachers">
+        <!-- <div class="row"> -->
+
+        <!-- <div class="teacher col-12 col-md-6"> -->
+
+        <div class="part-teachers">
+          <div class="teacher">
+            <img class="teacher-image" src="./images/man1.jpg" alt="">
+            <div class="teacher-information">
+              <h3 class="teacher-name">John</h3>
+              <p class="teacher-job">Software enginer at mirorverse</p>
+              <p class="teacher-description">John is a senior web developper since
+                10 years he have been working with many companies in the past such as google and facebook</p>
+            </div>
+          </div>
+
+          <!-- </div> -->
+          <!-- <div class="teacher col-12 col-md-6"> -->
+          <div class="teacher">
+            <img class="teacher-image" src="./images/man2.jpg" alt="">
+            <div class="teacher-information">
+              <h3 class="teacher-name">John</h3>
+              <p class="teacher-job">Software enginer at mirorverse</p>
+              <p class="teacher-description">John is a senior web developper since
+                10 years he have been working with many companies in the past such as google and facebook</p>
+            </div>
+          </div>
+
+          <!-- </div> -->
+          <!-- </div> -->
         </div>
 
-      </div>
-      <div class="teacher">
-        <img class="teacher-image" src="./images/man2.jpg" alt="">
-        <div class="teacher-information">
-          <h3 class="teacher-name">John</h3>
-          <p class="teacher-job">Software enginer at mirorverse</p>
-          <p class="teacher-description">John is a senior web developper since
-            10 years he have been working with many companies in the past such as google and facebook</p>
+
+        <div class="part-teachers">
+          <!-- <div class="row"> -->
+
+          <!-- <div class="teacher col-12 col-md-6"> -->
+          <div class="teacher">
+            <img class="teacher-image" src="./images/man3.jpg" alt="">
+            <div class="teacher-information">
+              <h3 class="teacher-name">John</h3>
+              <p class="teacher-job">Software enginer at mirorverse</p>
+              <p class="teacher-description">John is a senior web developper since
+                10 years he have been working with many companies in the past such as google and facebook</p>
+            </div>
+          </div>
+
+          <!-- </div> -->
+
+          <!-- <div class="teacher col-12 col-md-6"> -->
+          <div class="teacher">
+            <img class="teacher-image" src="./images/man4.jpg" alt="">
+            <div class="teacher-information">
+              <h3 class="teacher-name">John</h3>
+              <p class="teacher-job">Software enginer at mirorverse</p>
+              <p class="teacher-description">John is a senior web developper since
+                10 years he have been working with many companies in the past such as google and facebook</p>
+            </div>
+          </div>
+
+          <!-- </div> -->
+          <!-- </div> -->
+          <!-- </div> -->
         </div>
-      </div>
-      <div class="teacher">
-        <img class="teacher-image" src="./images/man3.jpg" alt="">
-        <div class="teacher-information">
-          <h3 class="teacher-name">John</h3>
-          <p class="teacher-job">Software enginer at mirorverse</p>
-          <p class="teacher-description">John is a senior web developper since
-            10 years he have been working with many companies in the past such as google and facebook</p>
-        </div>
-      </div>
-      <div class="teacher">
-        <img class="teacher-image" src="./images/man4.jpg" alt="">
-        <div class="teacher-information">
-          <h3 class="teacher-name">John</h3>
-          <p class="teacher-job">Software enginer at mirorverse</p>
-          <p class="teacher-description">John is a senior web developper since
-            10 years he have been working with many companies in the past such as google and facebook</p>
-        </div>
+
+
       </div>
     </section>
   </main>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

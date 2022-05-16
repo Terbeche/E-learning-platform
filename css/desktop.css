@@ -1,0 +1,101 @@
+@media (min-width: 768px) {
+  .hide-me-on-desktop {
+    display: none;
+  }
+
+ .header{
+   margin: 0;
+ }
+
+  #desktop-bar, li {
+      margin-right: 1rem;
+  }
+
+  #desktop-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+    background-color: #272a31;
+    margin: 0;
+  }
+
+  #desktop-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: white;
+    margin: 0;
+  }
+
+  #logo {
+    flex: 2;
+  }
+
+  #main-program {
+    margin: 0rem;
+    padding: 2rem 5rem;
+  }
+
+  #main-program-title {
+    text-align: center;
+    color: white;
+  }
+
+  #main-hr {
+    width: 10%;
+    margin: 0 45%;
+    margin-top: 1rem;
+    color: #ec5242;
+    border: 1px solid #ec5242;
+  }
+
+  #courses {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .course {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: #272a31;
+    background-color: rgba(150, 150, 150, 0.4);
+    margin: 2rem 0rem;
+    margin-right: 0.5rem;
+  }
+
+  .course-title {
+    color: #ec5242;
+    margin: auto;
+  }
+
+  .course-description {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: fit-content;
+  }
+
+  .course-illustraion {
+    margin: auto;
+    width: 30%;
+  }
+
+  #all-courses {
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .part-teachers {
+    display: flex;
+  }
+
+  .teacher-image {
+    width: 50%;
+    height: 50%;
+  }
+}

@@ -14,7 +14,23 @@
 <body>
 
   <header class="header">
+    <ul id="desktop-bar" class="hide-me-on-mobile">
+      <li><a href="#">logo</a></li>
+      <li><a href="#">logo</a></li>
+      <li><a href="#">English</a></li>
+      <li><a href="#">My page</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
     <nav class="navbar">
+      <ul id="desktop-navbar" class="hide-me-on-mobile">
+        <li id="logo"><a href="#">logo</a> </li>
+        <li><a href="#">About</a> </li>
+        <li><a href="#">Program</a> </li>
+        <li><a href="#">Join</a> </li>
+        <li><a href="#">Sponsor</a> </li>
+        <li><a href="#">News</a> </li>
+        <li><a href="#">logo</a> </li>
+      </ul>
       <img src="./images/icons/mobile-menu.svg" alt="">
     </nav>
 
@@ -61,17 +77,28 @@
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </div>
       <div id="about-images">
-        <div id="first-about-img" class="about-image">
-          <p class="image-text">random text for test purpose 2020</p>
+        <div class="container">
+          <div class="row">
+            <div class="col col-sm-12 col-md-6">
+              <div id="second-about-img" class="about-image">
+                <p class="image-text">random text for test purpose 2020</p>
+              </div>
+            </div>
+
+            <div class="col col-sm-12 col-md-6">
+              <div id="first-about-img" class="about-image">
+                <p class="image-text">random text for test purpose 2020</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="second-about-img" class="about-image">
-          <p class="image-text">random text for test purpose 2020</p>
-        </div>
+
       </div>
+
     </section>
   </main>
   <footer class="footer">
-    <div id="partner">
+    <div id="partner" class="hide-me-on-desktop">
       <h2 id="partner-title">Partner</h2>
       <hr id="main-hr">
     </div>

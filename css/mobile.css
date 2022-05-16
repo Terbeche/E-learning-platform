@@ -3,6 +3,18 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hide-me-on-mobile {
+  display: none;
+}
+
 .header {
   margin: 1rem;
   padding: : 1rem;
@@ -20,8 +32,6 @@
 }
 
 #main-program {
-  display: flex;
-  flex-direction: column;
   margin: 1rem;
   padding: 2rem 1rem 5rem 1rem;
   background-image: url("../images/courses-placeholder.svg");
@@ -42,8 +52,15 @@
   border: 1px solid #ec5242;
 }
 
-.course {
+#courses {
   display: flex;
+  flex-direction: column;
+}
+
+.course {
+  display: grid;
+  grid-template: 1fr / 1fr 2fr 4fr;
+  /* display: flex; */
   padding: 1rem;
   color: #272a31;
   background-color: rgba(150, 150, 150, 0.4);
@@ -59,11 +76,11 @@
 
 .course-description {
   color: white;
-  width: 50%;
+  align-self: center;
 }
 
 .course-illustraion {
-  width: 15%;
+  width: 70%;
   margin-right: 2rem;
 }
 
@@ -79,28 +96,38 @@
   width: 80%;
 }
 
-.teacher {
-  display: flex;
-  margin: 2rem;
-  gap: 1rem;
+#teachers-title {
+  text-align: center;
 }
 
-.teacher-information {}
+.the-teachers{
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher {
+  display: flex;
+  margin: 1.5rem 1.5rem;
+  gap: 1rem;
+  height: max-content;
+  /* height: fit-content; */
+}
+
+.teacher-information {
+  margin-right: 0px;
+}
 
 .teacher-image {
-  width: 30%;
-  background-color: red;
+  width: 20%;
+  height: 20%;
 }
 
 .teacher-job {
   color: #ec5242;
   margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-#teachers-title {
-  text-align: center;
-}
 
 #about {
   padding: 2rem;
@@ -126,7 +153,8 @@
 
 .image-text {
   text-align: center;
-  padding-top : 25%;
+  margin: 10rem;
+  /* padding-top : 25%; */
 
 }
 
