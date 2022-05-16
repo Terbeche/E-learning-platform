@@ -1,0 +1,89 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+#header {
+  margin: 1rem;
+  padding: : 1rem;
+  background-image: url("../images/mobile-placeholder.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#before-headline,#headline{
+  color: #ec5242;
+}
+
+
+#home-description {
+  padding-bottom: 5rem;
+}
+
+
+#main-program {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 2rem 1rem 5rem 1rem;
+  background-image: url("../images/courses-placeholder.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-program-title{
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+#main-hr {
+  width: 10%;
+  margin: 0 45%;
+  color: #ec5242;
+  border: 1px solid  #ec5242;
+}
+
+
+.course {
+  display: grid;
+  grid-template: 1fr/1fr 1fr 1fr;
+  padding: 2rem;
+}
+
+.course-title{
+  margin:auto;
+  color: #ec5242;
+}
+
+.course-description {
+  color: white;
+}
+
+.course-illustraion{
+  width: 50%;
+}
+
+.join-button {
+  text-align: center;
+}
+
+#join-button{
+  padding: 2rem;
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  width: 80%;
+}
+
+#teachers-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+.teacher-image {
+  width :30%;
+}
