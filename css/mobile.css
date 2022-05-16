@@ -1,11 +1,9 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
-
-#header {
+.header {
   margin: 1rem;
   padding: : 1rem;
   background-image: url("../images/mobile-placeholder.svg");
@@ -13,15 +11,13 @@
   background-size: cover;
 }
 
-#before-headline,#headline{
+#before-headline, #headline {
   color: #ec5242;
 }
-
 
 #home-description {
   padding-bottom: 5rem;
 }
-
 
 #main-program {
   display: flex;
@@ -33,44 +29,49 @@
   background-size: cover;
 }
 
-#main-program-title{
+#main-program-title {
   text-align: center;
-  margin-bottom: 1rem;
   color: white;
 }
 
 #main-hr {
   width: 10%;
   margin: 0 45%;
+  margin-top: 1rem;
   color: #ec5242;
-  border: 1px solid  #ec5242;
+  border: 1px solid #ec5242;
 }
-
 
 .course {
-  display: grid;
-  grid-template: 1fr/1fr 1fr 1fr;
-  padding: 2rem;
+  display: flex;
+  padding: 1rem;
+  color: #272a31;
+  background-color: rgba(150, 150, 150, 0.4);
+  margin: 2rem 0rem;
+  align-items: center;
 }
 
-.course-title{
-  margin:auto;
+.course-title {
+  margin: auto;
   color: #ec5242;
+  margin-left: 0;
 }
 
 .course-description {
   color: white;
+  width: 50%;
 }
 
-.course-illustraion{
-  width: 50%;
+.course-illustraion {
+  width: 15%;
+  margin-right: 2rem;
 }
 
 .join-button {
   text-align: center;
 }
 
-#join-button{
+#join-button {
   padding: 2rem;
   background-color: #ec5242;
   border: none;
@@ -78,12 +79,81 @@
   width: 80%;
 }
 
-#teachers-title {
-  text-align: center;
+.teacher {
+  display: flex;
+  margin: 2rem;
+  gap: 1rem;
+}
+
+.teacher-information {}
+
+.teacher-image {
+  width: 30%;
+  background-color: red;
+}
+
+.teacher-job {
+  color: #ec5242;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
+#teachers-title {
+  text-align: center;
+}
 
-.teacher-image {
-  width :30%;
+#about {
+  padding: 2rem;
+}
+
+.about-content {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.about-image {
+  display: block;
+  width: 90%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  color: white;
+  background: linear-gradient(rgb(255, 0, 0, 0.5), rgb(255, 0, 0, 0.5)), url("../images/about-image-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-text {
+  text-align: center;
+  padding-top : 25%;
+
+}
+
+#first-about-img {
+  background: linear-gradient(rgb(255, 0, 0, 0.5), rgb(255, 0, 0, 0.5)), url("../images/about-image-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#second-about-img {
+  background: linear-gradient(rgb(255, 0, 0, 0.5), rgb(255, 0, 0, 0.5)), url("../images/about-image-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#partner-title {
+  text-align: center;
+  color: white;
+}
+
+
+#partner {
+  background-color: #272a31;
+}
+
+.rights {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
 }
