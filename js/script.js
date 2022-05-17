@@ -3,7 +3,10 @@ function showTheMenu() {
     return;
   }
   document.getElementById('overlay').style.display = 'flex';
+
 }
+
+
 
 function hideTheMenu() {
   document.getElementById('overlay').style.display = 'none';

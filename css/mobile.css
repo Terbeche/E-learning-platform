@@ -22,8 +22,9 @@ li {
 }
 
 #navigation {
-  top :0;
+  overflow: hidden;
   position: fixed;
+  top: 0;
 }
 
 #overlay {
