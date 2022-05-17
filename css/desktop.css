@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 @media (min-width: 768px) {
   .hide-me-on-desktop {
     display: none;
   }
 
- .header{
-   margin: 0;
- }
+  .header {
+    margin: 0;
+  }
 
   #desktop-bar, li {
-      margin-right: 1rem;
+    margin-right: 1rem;
   }
 
   #desktop-bar {
@@ -19,6 +22,10 @@
     margin: 0;
   }
 
+  #desktop-bar li a {
+    color: white;
+  }
+
   #desktop-navbar {
     display: flex;
     justify-content: space-between;
@@ -27,13 +34,17 @@
     margin: 0;
   }
 
+  #desktop-navbar li a {
+    color: black;
+  }
+
   #logo {
     flex: 2;
   }
 
   #main-program {
     margin: 0rem;
-    padding: 2rem 5rem;
+    padding: 2rem 8rem;
   }
 
   #main-program-title {

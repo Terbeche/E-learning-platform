@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+/* #272a31  black*/
+/* #ec5242 red*/
+/* d3d3d3 white*/
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -9,6 +17,15 @@ a {
 
 li {
   list-style-type: none;
+}
+
+.nav-bar {
+  margin-bottom: 3rem;
+}
+
+#navigation {
+  top :0;
+  position: fixed;
 }
 
 #overlay {
@@ -26,7 +43,7 @@ li {
   z-index: 2;
 }
 
-#overlay > img {
+#overlay>img {
   width: 14px;
   height: 14px;
   padding: 17px 13px 17px 0;
@@ -34,7 +51,7 @@ li {
   align-self: flex-end;
 }
 
-#overlay > a {
+#overlay>a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -59,16 +76,50 @@ li {
   background-size: cover;
 }
 
-#before-headline, #headline {
+.header-content {
+  padding: 1rem;
+}
+
+#before-headline {
   color: #ec5242;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#headline {
+  color: #ec5242;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'cocogoose', sans-serif;
+  background: -webkit-linear-gradient(#ec5242, #ab0e2a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#before-headline-about {
+  color: #ec5242;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#headline-about {
+  color: #ec5242;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'cocogoose', sans-serif;
 }
 
 #home-description {
   padding-bottom: 5rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
 }
 
 #main-program {
-  margin: 1rem;
+  margin: 1rem 0rem;
   padding: 2rem 1rem 5rem 1rem;
   background-image: url("../images/courses-placeholder.svg");
   background-repeat: no-repeat;
@@ -100,7 +151,7 @@ li {
   padding: 1rem;
   color: #272a31;
   background-color: rgba(150, 150, 150, 0.4);
-  margin: 2rem 0rem;
+  margin: 0.5rem 0rem;
   align-items: center;
 }
 
@@ -122,6 +173,7 @@ li {
 
 .join-button {
   text-align: center;
+  margin-top: 2rem;
 }
 
 #join-button {
@@ -136,9 +188,9 @@ li {
   text-align: center;
 }
 
-.the-teachers{
-    display: flex;
-    flex-direction: column;
+.the-teachers {
+  display: flex;
+  flex-direction: column;
 }
 
 .teacher {
@@ -158,12 +210,27 @@ li {
   height: 20%;
 }
 
-.teacher-job {
-  color: #ec5242;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.teacher-name {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #272a31;
+  margin-bottom: 0.2rem;
 }
 
+.teacher-job {
+  color: #ec5242;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8;
+}
+
+.teacher-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7rem;
+  color: #272a31;
+}
 
 #about {
   padding: 2rem;
@@ -172,26 +239,26 @@ li {
 .about-content {
   text-align: center;
   margin: 2rem 0rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
 }
 
 .about-image {
-  display: block;
-  width: 90%;
-  height: 250px;
-  margin-left: auto;
-  margin-right: auto;
+  /* display: block; */
+  display: flex;
+  width: 100%;
+  height: 50vh;
   margin-bottom: 1rem;
   color: white;
-  background: linear-gradient(rgb(255, 0, 0, 0.5), rgb(255, 0, 0, 0.5)), url("../images/about-image-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.image-text {
-  text-align: center;
-  margin: 10rem;
-  /* padding-top : 25%; */
-
+#about-images {
+  display: flex;
+  flex-direction: column;
 }
 
 #first-about-img {
@@ -206,18 +273,71 @@ li {
   background-repeat: no-repeat;
 }
 
-#partner-title {
-  text-align: center;
-  color: white;
+.image-text {
+    font-family: 'cocogoose',sans-serif;
 }
 
+.year {
+  font-size: 2rem;
+}
+
+#partner-title {
+  text-align: center;
+  color: #d3d3d3;
+}
 
 #partner {
   background-color: #272a31;
+  padding: 2rem;
+}
+
+.partners-list {
+  margin: 2rem 1rem 2rem 0rem;
+}
+
+.parnters {
+  display: flex;
+  justify-content: center;
+}
+
+.parnters li {
+  color: #56585c;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 0rem 0.5rem;
 }
 
 .rights {
   display: flex;
   justify-content: space-between;
   padding: 4rem;
+}
+
+.logo-footer {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
+
+}
+
+.right {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
+}
+
+.more {
+  text-align: center;
+  border: solid #ccc 0.05rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.fa-chevron-down {
+  color: #ec5242;
 }
