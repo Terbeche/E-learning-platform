@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-/* #272a31  black*/
-/* #ec5242 red*/
-/* d3d3d3 white*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -283,7 +281,7 @@ li {
 
 #partner-title {
   text-align: center;
-  color: #d3d3d3;
+  color: #56585c;
 }
 
 #partner {
