@@ -149,6 +149,10 @@
     text-decoration: underline;
   }
 
+  .teacher-hidded{
+    display: flex;
+  }
+
   .the-teachers {
     display: grid;
     grid-template: 1fr / 1fr 1fr;

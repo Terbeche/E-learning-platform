@@ -4,11 +4,11 @@
 
 
 >We are building the home and the about pages of the first capstone project for both mobile and desktop versions.
-Here is what the page web looks like:
+Here is some screenshots of those pages:
 
 
->![alt text](https://raw.githubusercontent.com/Terbeche/Project-1-Setup-and-mobile-version-skeleton/main/images/portfolio.PNG)
-
+>![alt text](./images/screen-shot/home-desktop.png)
+>![alt text](./images/screen-shot/home-mobile.png)
 
 
 ## Built With

@@ -131,22 +131,28 @@ teachers.appendChild(theTeachers);
 
 let teachersHidded = document.getElementsByClassName("teacher-hidded");
 
-Array.from(teachersHidded).forEach((teacherHidded) => {
-  teacherHidded.style.display = 'none';
-})
 
 function teachersToggle() {
-  Array.from(teachersHidded).forEach((teacherHidded) => {
-    if (teacherHidded.style.display === 'none') {
-      teacherHidded.style.display = 'flex';
-    } else {
-      teacherHidded.style.display = 'none';
-    }
-  })
 
-  moreSpan.textContent = 'LESS';
-  arrowIcon.classList.remove('fa-chevron-down');
-  arrowIcon.classList.add('fa-chevron-up');
+  if (moreSpan.textContent === 'MORE') {
+
+    Array.from(teachersHidded).forEach((teacherHidded) => {
+      teacherHidded.style.display = 'flex';
+    })
+    moreSpan.textContent = 'LESS';
+    arrowIcon.classList.remove('fa-chevron-down');
+    arrowIcon.classList.add('fa-chevron-up');
+
+  } else if (moreSpan.textContent === 'LESS') {
+
+    Array.from(teachersHidded).forEach((teacherHidded) => {
+      teacherHidded.style.display = 'none';
+    })
+    moreSpan.textContent = 'MORE';
+    arrowIcon.classList.remove('fa-chevron-up');
+    arrowIcon.classList.add('fa-chevron-down');
+  }
+
 
   window.scrollTo(0, document.body.scrollHeight);
 
