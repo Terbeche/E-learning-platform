@@ -5,9 +5,9 @@
 
 >We are building the home and the about pages of the first capstone project for both mobile and desktop versions.
 Here is what the page web looks like:
-![alt text](https://raw.githubusercontent.com/Terbeche/Project-1-Setup-and-mobile-version-skeleton/main/images/portfolio.PNG)
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
+>![alt text](https://raw.githubusercontent.com/Terbeche/Project-1-Setup-and-mobile-version-skeleton/main/images/portfolio.PNG)
 
 
 
@@ -19,7 +19,7 @@ Here is what the page web looks like:
 ## Live Demo (if available)
 
 
-[Live Demo Link](https://terbeche.github.io/Project-1-Setup-and-mobile-version-skeleton/)
+[Live Demo Link](https://terbeche.github.io/E-learning-platform/)
 
 
 ## Authors
