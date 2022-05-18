@@ -12,8 +12,8 @@
   }
 
   .header {
-    margin: 0rem;
-    padding: 0rem;
+    margin: 0;
+    padding: 0;
   }
 
   .nav-bar {
@@ -149,7 +149,7 @@
     text-decoration: underline;
   }
 
-  .teacher-hidded{
+  .teacher-hidded {
     display: flex;
   }
 
@@ -195,6 +195,7 @@
 
   .small-title {
     font-weight: bold;
+    font-size: 1.5rem;
   }
 
   .footer {

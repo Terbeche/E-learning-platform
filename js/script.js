@@ -21,41 +21,41 @@ for (let i = 0; i < menuLinks.length; i += 1) {
 }
 
 const teachersDetails = [{
-    teacher_name: 'Data Dashboard Healthcare',
-    teacher_job: 'software enginer',
-    teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: './images/man1.jpg',
-  },
-  {
-    teacher_name: 'Data Dashboard Healthcare',
-    teacher_job: 'software enginer',
-    teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: './images/man2.jpg',
-  },
-  {
-    teacher_name: 'Data Dashboard Healthcare',
-    teacher_job: 'software enginer',
-    teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: './images/man3.jpg',
-  },
-  {
-    teacher_name: 'Data Dashboard Healthcare',
-    teacher_job: 'software enginer',
-    teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: './images/man4.jpg',
-  },
-  {
-    teacher_name: 'Data Dashboard Healthcare',
-    teacher_job: 'software enginer',
-    teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: './images/man3.jpg',
-  },
-  {
-    teacher_name: 'Data Dashboard Healthcare',
-    teacher_job: 'software enginer',
-    teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: './images/man4.jpg',
-  },
+  teacher_name: 'Angus Henry',
+  teacher_job: 'Web developer',
+  teacher_description: '10 years of experience in the Tech industry and web development',
+  teacher_image: './images/man1.jpg',
+},
+{
+  teacher_name: 'Albert Baker',
+  teacher_job: 'Data analyst',
+  teacher_description: '10 years of experience in the Tech industry and web development',
+  teacher_image: './images/man2.jpg',
+},
+{
+  teacher_name: 'Mitchell Arnold',
+  teacher_job: 'UX designer',
+  teacher_description: '10 years of experience in the Tech industry and web development',
+  teacher_image: './images/man3.jpg',
+},
+{
+  teacher_name: 'Rafael Miller',
+  teacher_job: 'Software enginer',
+  teacher_description: '10 years of experience in the Tech industry and web development',
+  teacher_image: './images/man4.jpg',
+},
+{
+  teacher_name: 'Eddie Mccoy',
+  teacher_job: 'Blockchain developer',
+  teacher_description: '10 years of experience in the Tech industry and web development',
+  teacher_image: './images/man5.jpg',
+},
+{
+  teacher_name: 'Homer Solis',
+  teacher_job: 'Mobile developer',
+  teacher_description: '10 years of experience in the Tech industry and web development',
+  teacher_image: './images/man6.jpg',
+},
 ];
 
 const teachers = document.getElementById('teachers');
@@ -129,33 +129,26 @@ theTeachers.appendChild(moreDiv);
 
 teachers.appendChild(theTeachers);
 
-let teachersHidded = document.getElementsByClassName("teacher-hidded");
-
+const teachersHidded = document.getElementsByClassName('teacher-hidded');
 
 function teachersToggle() {
-
   if (moreSpan.textContent === 'MORE') {
-
     Array.from(teachersHidded).forEach((teacherHidded) => {
       teacherHidded.style.display = 'flex';
-    })
+    });
     moreSpan.textContent = 'LESS';
     arrowIcon.classList.remove('fa-chevron-down');
     arrowIcon.classList.add('fa-chevron-up');
-
   } else if (moreSpan.textContent === 'LESS') {
-
     Array.from(teachersHidded).forEach((teacherHidded) => {
       teacherHidded.style.display = 'none';
-    })
+    });
     moreSpan.textContent = 'MORE';
     arrowIcon.classList.remove('fa-chevron-up');
     arrowIcon.classList.add('fa-chevron-down');
   }
 
-
   window.scrollTo(0, document.body.scrollHeight);
-
 }
 
 moreDiv.addEventListener('click', teachersToggle);
