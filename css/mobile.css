@@ -188,8 +188,8 @@ li {
 }
 
 .the-teachers {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template: 1fr / 1fr;
 }
 
 .teacher {
