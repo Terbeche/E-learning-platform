@@ -7,8 +7,8 @@
 Here is some screenshots of those pages:
 
 
->![alt text](./images/screen-shot/home-desktop.png)
->![alt text](./images/screen-shot/home-mobile.png)
+>![alt text](https://raw.githubusercontent.com/Terbeche/E-learning-platform/create-home-and-about-page/images/screen-shot/home-mobile.PNG)
+>![alt text](https://raw.githubusercontent.com/Terbeche/E-learning-platform/create-home-and-about-page/images/screen-shot/home-desktop.PNG)
 
 
 ## Built With

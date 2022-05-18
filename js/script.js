@@ -24,19 +24,19 @@ const teachersDetails = [{
     teacher_name: 'Data Dashboard Healthcare',
     teacher_job: 'software enginer',
     teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: '../images/man1.jpg',
+    teacher_image: './images/man1.jpg',
   },
   {
     teacher_name: 'Data Dashboard Healthcare',
     teacher_job: 'software enginer',
     teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: '../images/man2.jpg',
+    teacher_image: './images/man2.jpg',
   },
   {
     teacher_name: 'Data Dashboard Healthcare',
     teacher_job: 'software enginer',
     teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: '../images/man3.jpg',
+    teacher_image: './images/man3.jpg',
   },
   {
     teacher_name: 'Data Dashboard Healthcare',
@@ -48,7 +48,7 @@ const teachersDetails = [{
     teacher_name: 'Data Dashboard Healthcare',
     teacher_job: 'software enginer',
     teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-    teacher_image: '../images/man3.jpg',
+    teacher_image: './images/man3.jpg',
   },
   {
     teacher_name: 'Data Dashboard Healthcare',
