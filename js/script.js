@@ -20,8 +20,7 @@ for (let i = 0; i < menuLinks.length; i += 1) {
   menuLinks[i].addEventListener('click', hideTheMenu);
 }
 
-const teachersDetails = [
-  {
+const teachersDetails = [{
     teacher_name: 'Data Dashboard Healthcare',
     teacher_job: 'software enginer',
     teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
@@ -32,6 +31,18 @@ const teachersDetails = [
     teacher_job: 'software enginer',
     teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
     teacher_image: '../images/man2.jpg',
+  },
+  {
+    teacher_name: 'Data Dashboard Healthcare',
+    teacher_job: 'software enginer',
+    teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+    teacher_image: '../images/man3.jpg',
+  },
+  {
+    teacher_name: 'Data Dashboard Healthcare',
+    teacher_job: 'software enginer',
+    teacher_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+    teacher_image: './images/man4.jpg',
   },
   {
     teacher_name: 'Data Dashboard Healthcare',
@@ -64,6 +75,9 @@ theTeachers.classList.add('the-teachers');
 for (let i = 0; i < teachersDetails.length; i += 1) {
   const teacher = document.createElement('div');
   teacher.classList.add('teacher');
+  if (i > 1) {
+    teacher.classList.add('teacher-hidded');
+  }
 
   const teacherImage = document.createElement('img');
   teacherImage.classList.add('teacher-image');
@@ -114,3 +128,28 @@ moreDiv.appendChild(arrowSpan);
 theTeachers.appendChild(moreDiv);
 
 teachers.appendChild(theTeachers);
+
+let teachersHidded = document.getElementsByClassName("teacher-hidded");
+
+Array.from(teachersHidded).forEach((teacherHidded) => {
+  teacherHidded.style.display = 'none';
+})
+
+function teachersToggle() {
+  Array.from(teachersHidded).forEach((teacherHidded) => {
+    if (teacherHidded.style.display === 'none') {
+      teacherHidded.style.display = 'flex';
+    } else {
+      teacherHidded.style.display = 'none';
+    }
+  })
+
+  moreSpan.textContent = 'LESS';
+  arrowIcon.classList.remove('fa-chevron-down');
+  arrowIcon.classList.add('fa-chevron-up');
+
+  window.scrollTo(0, document.body.scrollHeight);
+
+}
+
+moreDiv.addEventListener('click', teachersToggle);

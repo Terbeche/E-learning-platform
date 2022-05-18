@@ -205,6 +205,10 @@ li {
   justify-content: center;
 }
 
+.teacher-hidded{
+  display: none;
+}
+
 .teacher-information {
   margin-right: 0;
 }
@@ -343,5 +347,9 @@ li {
 }
 
 .fa-chevron-down {
+  color: #ec5242;
+}
+
+.fa-chevron-up {
   color: #ec5242;
 }
