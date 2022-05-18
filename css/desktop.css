@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-/* #272a31  black*/
-/* #ec5242 red*/
-/* d3d3d3 white*/
+/* #272a31  black */
+
+/* #ec5242 red */
+
+/* d3d3d3 white */
 @media (min-width: 768px) {
   .hide-me-on-desktop {
     display: none;
@@ -35,7 +37,8 @@
     font-size: 3rem;
   }
 
-  #desktop-bar, li {
+  #desktop-bar,
+  li {
     margin-left: 1.5rem;
   }
 
@@ -72,18 +75,21 @@
     color: red;
   }
 
-  #logo {
-    flex: 1;
-    align-self: center;
-    margin-left: 10rem;
+  #content-logo {
+    width: 100%;
   }
 
-  #logo-image {
-    width: 15rem;
+  .logo {
+    flex: 1;
+    align-self: center;
+  }
+
+  .logo-image {
+    width: 12rem;
   }
 
   #main-program {
-    margin: 0rem;
+    margin: 0;
     margin-bottom: 2rem;
     padding: 2rem 10rem;
   }
@@ -93,7 +99,7 @@
     color: white;
   }
 
-  #main-hr {
+  .main-hr {
     width: 10%;
     margin: 0 45%;
     margin-top: 1rem;
@@ -114,7 +120,7 @@
     padding: 1rem;
     color: #272a31;
     background-color: rgba(150, 150, 150, 0.4);
-    margin: 2rem 0rem;
+    margin: 2rem 0;
     margin-right: 0.5rem;
   }
 
@@ -145,10 +151,18 @@
   .the-teachers {
     display: grid;
     grid-template: 1fr / 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0;
+  }
+
+  .teacher {
+    margin: 1.5rem 0;
+    width: 100%;
   }
 
   #about {
-    padding: 0rem 10rem;
+    padding: 0 10rem;
   }
 
   .about-image {
@@ -193,26 +207,26 @@
   }
 
   .partners-list {
-    margin: 2rem 1rem 2rem 0rem;
+    margin: 2rem 1rem 2rem 0;
   }
 
-  .parnters {
+  .partners {
     display: flex;
     justify-content: center;
   }
 
-  .parnters li {
+  .partners li {
     color: #56585c;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 1.25rem;
-    margin: 0rem 1rem;
+    margin: 0 1rem;
   }
 
   .rights {
     display: flex;
-    justify-content: space-between;
-    padding: 4rem;
+    justify-content: center;
+    gap: 3rem;
   }
 
   .logo-footer {

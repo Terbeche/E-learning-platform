@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-  <script src="https://kit.fontawesome.com/287a5ee324.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learn the best way</title>
+  <title>Free Global Learning</title>
+  <script src="https://kit.fontawesome.com/287a5ee324.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/mobile.css">
   <link rel="stylesheet" href="./css/desktop.css">
+
 </head>
 
 <body>
@@ -22,26 +23,25 @@
       <a class="menu-link" href="#work">Join</a>
       <a class="menu-link" href="#about">Sponsor</a>
       <a class="menu-link" href="#contact-link">News</a>
-      <a class="menu-link" href="#contact-link">FG Learning</a>
+      <a class="menu-link" href="#contact-link">Learning</a>
     </div>
 
     <nav class="nav-bar">
       <ul id="desktop-bar" class="hide-me-on-mobile">
-        <li><a href="#"><i class="fab fa-facebook-f"></i></i>
-            </i></a></li>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
         <li><a href="#">English</a></li>
         <li><a href="#">My page</a></li>
         <li><a href="#">Logout</a></li>
       </ul>
       <ul id="desktop-navbar" class="hide-me-on-mobile">
-        <li id="logo"><a href="index.html"><img id="logo-image" src="./images/logo.png" alt=""></a> </li>
+        <li class="logo"><a href="index.html"><img class="logo-image" src="./images/logo.png" alt=""></a> </li>
         <li><a href="about.html">About</a> </li>
         <li><a href="#">Program</a> </li>
         <li><a href="#">Join</a> </li>
         <li><a href="#">Sponsor</a> </li>
         <li><a href="#">News</a> </li>
-        <li id="learning"><a href="#"><span id="red-learning">FG Learning</span></a> </li>
+        <li id="learning"><a href="#"><span id="red-learning">Learning</span></a> </li>
       </ul>
       <a href="#"> <img id="navigation" class="hide-me-on-desktop" src="./images/icons/mobile-menu.svg" alt=""></a>
     </nav>
@@ -71,18 +71,18 @@
 
       <div class="about-content">
         <h3 class="small-title">First random title for the moment</h3>
-        <hr id="main-hr">
+        <hr class="main-hr">
       </div>
       <div class="about-content">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </div>
-      <div class="about-content">
-        <h2 class="big-title">big random title</h2>
+      <div class="about-content logo big-title">
+        <a href="index.html"><img class="logo-image" id="content-logo"  src="./images/logo.png" alt=""></a>
       </div>
       <div class="about-content">
         <h3 class="small-title">Second random title for the moment</h3>
-        <hr id="main-hr">
+        <hr class="main-hr">
       </div>
       <div class="about-content">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -105,30 +105,41 @@
   <footer class="footer">
     <div id="partner" class="hide-me-on-desktop">
       <h2 id="partner-title">Partner</h2>
-      <hr id="main-hr">
-      <ul class="partners-list">
-        <div class="parnters">
+      <hr class="main-hr">
+
+      <ul class="partners-list partners">
+        <!-- <div class="partners"> -->
           <li>mozilla</li>
           <li>Google</li>
           <li>freeCodeCamp</li>
-        </div>
-        <br>
-        <div class="parnters">
+        <!-- </div> -->
+        <!-- <br> -->
+        <!-- <div class="partners"> -->
+
+        <!-- </div> -->
+      </ul>
+      <ul class="partners-list partners">
+        <!-- <div class="partners"> -->
+
+        <!-- </div> -->
+        <!-- <br> -->
+        <!-- <div class="partners"> -->
           <li>Codecademy</li>
           <li>Udacity</li>
-        </div>
+        <!-- </div> -->
       </ul>
+
     </div>
     <div class="rights switch-about">
       <div class="right">
         <p class="logo-footer switch-about">Free Global Learning</p>
       </div>
       <div class="right switch-about">
-        <p>2022 Free Global Learning.All right reserved</p>
+        <p>2022 Free Global Learning<br>All right reserved</p>
       </div>
     </div>
   </footer>
-  <script src="./js/script.js"></script>
+  <script src="./js/script.js" defer></script>
 </body>
 
 </html>

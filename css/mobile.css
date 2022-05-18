@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,7 +41,7 @@ li {
   z-index: 2;
 }
 
-#overlay>img {
+#overlay > img {
   width: 14px;
   height: 14px;
   padding: 17px 13px 17px 0;
@@ -50,7 +49,7 @@ li {
   align-self: flex-end;
 }
 
-#overlay>a {
+#overlay > a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -69,7 +68,7 @@ li {
 
 .header {
   margin: 1rem;
-  padding: : 1rem;
+  padding: 1rem;
   background-image: url("../images/mobile-placeholder.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,7 +117,7 @@ li {
 }
 
 #main-program {
-  margin: 1rem 0rem;
+  margin: 1rem 0;
   padding: 2rem 1rem 5rem 1rem;
   background-image: url("../images/courses-placeholder.svg");
   background-repeat: no-repeat;
@@ -130,12 +129,16 @@ li {
   color: white;
 }
 
-#main-hr {
+.main-hr {
   width: 10%;
   margin: 0 45%;
   margin-top: 1rem;
   color: #ec5242;
   border: 1px solid #ec5242;
+}
+
+#content-logo {
+  width: 50%;
 }
 
 #courses {
@@ -146,11 +149,12 @@ li {
 .course {
   display: grid;
   grid-template: 1fr / 1fr 2fr 4fr;
+
   /* display: flex; */
   padding: 1rem;
   color: #272a31;
   background-color: rgba(150, 150, 150, 0.4);
-  margin: 0.5rem 0rem;
+  margin: 0.5rem 0;
   align-items: center;
 }
 
@@ -197,11 +201,12 @@ li {
   margin: 1.5rem 1.5rem;
   gap: 1rem;
   height: max-content;
-  /* height: fit-content; */
+  align-items: center;
+  justify-content: center;
 }
 
 .teacher-information {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .teacher-image {
@@ -219,10 +224,10 @@ li {
 
 .teacher-job {
   color: #ec5242;
-  margin-top: 0rem;
+  margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: 'Lato', sans-serif;
-  font-size: 0.8;
+  font-size: 0.8rem;
 }
 
 .teacher-description {
@@ -237,7 +242,7 @@ li {
 
 .about-content {
   text-align: center;
-  margin: 2rem 0rem;
+  margin: 2rem 0;
   font-family: 'Lato', sans-serif;
   font-size: 0.8rem;
   color: #272a31;
@@ -273,7 +278,7 @@ li {
 }
 
 .image-text {
-    font-family: 'cocogoose',sans-serif;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .year {
@@ -291,20 +296,21 @@ li {
 }
 
 .partners-list {
-  margin: 2rem 1rem 2rem 0rem;
+  margin: 2rem 0;
+  display: flex;
 }
 
-.parnters {
+.partners {
   display: flex;
   justify-content: center;
 }
 
-.parnters li {
+.partners li {
   color: #56585c;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-size: 1.25rem;
-  margin: 0rem 0.5rem;
+  margin: 0 0.5rem;
 }
 
 .rights {
@@ -317,7 +323,6 @@ li {
   font-family: 'cocogoose', sans-serif;
   font-size: 0.8rem;
   color: #272a31;
-
 }
 
 .right {
