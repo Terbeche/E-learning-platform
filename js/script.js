@@ -24,37 +24,39 @@ const teachersDetails = [{
   teacher_name: 'Angus Henry',
   teacher_job: 'Web developer',
   teacher_description: '10 years of experience in the Tech industry and web development',
-  teacher_image: './images/man1.jpg',
-},
-{
-  teacher_name: 'Albert Baker',
-  teacher_job: 'Data analyst',
-  teacher_description: '10 years of experience in the Tech industry and web development',
-  teacher_image: './images/man2.jpg',
-},
-{
-  teacher_name: 'Mitchell Arnold',
-  teacher_job: 'UX designer',
-  teacher_description: '10 years of experience in the Tech industry and web development',
-  teacher_image: './images/man3.jpg',
+  teacher_image: './images/teacher1.jpg',
 },
 {
   teacher_name: 'Rafael Miller',
   teacher_job: 'Software enginer',
   teacher_description: '10 years of experience in the Tech industry and web development',
-  teacher_image: './images/man4.jpg',
+  teacher_image: './images/teacher4.jpg',
 },
 {
-  teacher_name: 'Eddie Mccoy',
+  teacher_name: 'Isabelle Arnold',
+  teacher_job: 'UX designer',
+  teacher_description: '10 years of experience in the Tech industry and web development',
+  teacher_image: './images/teacher3.jpg',
+},
+
+{
+  teacher_name: 'Alicia Baker',
+  teacher_job: 'Data analyst',
+  teacher_description: '10 years of experience in the Tech industry and web development',
+  teacher_image: './images/teacher2.jpg',
+},
+
+{
+  teacher_name: 'Ellie Mccoy',
   teacher_job: 'Blockchain developer',
   teacher_description: '10 years of experience in the Tech industry and web development',
-  teacher_image: './images/man5.jpg',
+  teacher_image: './images/teacher5.jpg',
 },
 {
   teacher_name: 'Homer Solis',
   teacher_job: 'Mobile developer',
   teacher_description: '10 years of experience in the Tech industry and web development',
-  teacher_image: './images/man6.jpg',
+  teacher_image: './images/teacher6.jpg',
 },
 ];
 
