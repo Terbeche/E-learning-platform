@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-bar {
+  margin-bottom: 3rem;
+}
+
+#navigation {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 24px;
+  background-color: #272a31;
+  z-index: 2;
+}
+
+#overlay > img {
+  width: 14px;
+  height: 14px;
+  padding: 17px 13px 17px 0;
+  box-sizing: content-box;
+  align-self: flex-end;
+}
+
+#overlay > a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 56px;
+  color: white;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  border-bottom: 1px solid #6f6c6b;
+  text-decoration: none;
+}
+
+.hide-me-on-mobile {
+  display: none;
+}
+
+.header {
+  margin: 1rem;
+  padding: 1rem;
+  background-image: url("../images/mobile-placeholder.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content {
+  padding: 1rem;
+}
+
+#before-headline {
+  color: #ec5242;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#headline {
+  color: #ec5242;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'cocogoose', sans-serif;
+  background: -webkit-linear-gradient(#ec5242, #ab0e2a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#before-headline-about {
+  color: #ec5242;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#headline-about {
+  color: #ec5242;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'cocogoose', sans-serif;
+}
+
+#home-description {
+  padding-bottom: 5rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
+}
+
+#main-program {
+  margin: 1rem 0;
+  padding: 2rem 1rem 5rem 1rem;
+  background-image: url("../images/courses-placeholder.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-program-title {
+  text-align: center;
+  color: white;
+}
+
+.main-hr {
+  width: 10%;
+  margin: 0 45%;
+  margin-top: 1rem;
+  color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+#content-logo {
+  width: 50%;
+}
+
+#courses {
+  display: flex;
+  flex-direction: column;
+}
+
+.course {
+  display: grid;
+  grid-template: 1fr / 1fr 2fr 4fr;
+  padding: 1rem;
+  color: #272a31;
+  background-color: rgba(150, 150, 150, 0.4);
+  margin: 0.5rem 0;
+  align-items: center;
+}
+
+.course-title {
+  margin: auto;
+  color: #ec5242;
+  margin-left: 0;
+}
+
+.course-description {
+  color: white;
+  align-self: center;
+}
+
+.course-illustraion {
+  width: 70%;
+  margin-right: 2rem;
+}
+
+.join-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#join-button {
+  padding: 2rem;
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  width: 80%;
+}
+
+#teachers-title {
+  text-align: center;
+}
+
+.the-teachers {
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+
+.teacher {
+  display: flex;
+  margin: 1.5rem 1.5rem;
+  gap: 1rem;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.teacher-hidded {
+  display: none;
+}
+
+.teacher-information {
+  margin-right: 0;
+}
+
+.teacher-image {
+  width: 20%;
+  height: 20%;
+}
+
+.teacher-name {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #272a31;
+  margin-bottom: 0.2rem;
+}
+
+.teacher-job {
+  color: #ec5242;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+}
+
+.teacher-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7rem;
+  color: #272a31;
+}
+
+.small-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#about {
+  padding: 2rem;
+}
+
+.about-content {
+  text-align: center;
+  margin: 2rem 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
+}
+
+.about-image {
+  /* display: block; */
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 1rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about-images {
+  display: flex;
+  flex-direction: column;
+}
+
+#first-about-img {
+  background: linear-gradient(rgb(255, 0, 0, 0.5), rgb(255, 0, 0, 0.5)), url("../images/about-image-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#second-about-img {
+  background: linear-gradient(rgb(255, 0, 0, 0.5), rgb(255, 0, 0, 0.5)), url("../images/about-image-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-text {
+  font-family: 'cocogoose', sans-serif;
+}
+
+.year {
+  font-size: 2rem;
+}
+
+#partner-title {
+  text-align: center;
+  color: #56585c;
+}
+
+#partner {
+  background-color: #272a31;
+  padding: 2rem;
+}
+
+.partners-list {
+  margin: 2rem 0;
+  display: flex;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+}
+
+.partners li {
+  color: #56585c;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+}
+
+.rights {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.logo-footer {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
+}
+
+.right {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
+}
+
+.more {
+  text-align: center;
+  border: solid #ccc 0.05rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.fa-chevron-down {
+  color: #ec5242;
+}
+
+.fa-chevron-up {
+  color: #ec5242;
+}
