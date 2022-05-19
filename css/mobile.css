@@ -149,8 +149,6 @@ li {
 .course {
   display: grid;
   grid-template: 1fr / 1fr 2fr 4fr;
-
-  /* display: flex; */
   padding: 1rem;
   color: #272a31;
   background-color: rgba(150, 150, 150, 0.4);
