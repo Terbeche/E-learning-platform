@@ -2,9 +2,6 @@
 
 >This is a E-learning-platform website for the FIRST CAPSTONE PROJECT of the microverse program
 
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-Icons by [icon8](https://icons8.com/)
-
 >We are building the home and the about pages of the first capstone project for both mobile and desktop versions.
 Here is some screenshots of those pages:
 
@@ -45,9 +42,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+Icons by [icon8](https://icons8.com/)
 
 ## 📝 License
 
