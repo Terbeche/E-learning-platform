@@ -3,13 +3,11 @@
 > This is a E-learning-platform website for the FIRST CAPSTONE PROJECT of the microverse program
 
 > We are building the home and the about pages of the first capstone project for both mobile and desktop versions.
-> Here is some screenshots of those pages:
-
-> ![alt text](https://raw.githubusercontent.com/Terbeche/E-learning-platform/create-home-and-about-page/images/screen-shot/home-mobile.PNG) >![alt text](https://raw.githubusercontent.com/Terbeche/E-learning-platform/create-home-and-about-page/images/screen-shot/home-desktop.PNG)
 
 ## Screen shots
 
 - ![](./screen/screen1.PNG)
+- ![](./screen/screen2.PNG)
 
 ## Built With
 
