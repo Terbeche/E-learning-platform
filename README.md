@@ -10,6 +10,7 @@
 ## Screen shots
 
 - ![](./screen/screen1.PNG)
+- ![](./screen/screen2.PNG)
 
 ## Built With
 
