@@ -18,7 +18,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://terbeche.github.io/E-learning-platform/)
+[Live Demo Link](https://global-learning-platform.netlify.app/)
 
 ## Authors
 
